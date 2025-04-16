@@ -30,11 +30,17 @@ Paste your resume + JD, hit generate, and get a personalized version instantly.
 ### 1. Clone the repo
 
 git clone https://github.com/your-username/smartresume.git
-cd smartresume 2. Install dependencies
+cd smartresume
+
+### 2. Install dependencies
+
 bash
 Copy
 Edit
-npm install 3. Set up environment variables
+npm install
+
+### 3. Set up environment variables
+
 Create a .env.local file and add:
 
 env
@@ -42,14 +48,18 @@ Copy
 Edit
 NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-OPENAI_API_KEY=your_openai_api_key 4. Run the dev server
+OPENAI_API_KEY=your_openai_api_key
+
+### 4. Run the dev server
+
 bash
 Copy
 Edit
 npm run dev
 App will be running at http://localhost:3000
 
-📁 File Structure
+## 📁 File Structure
+
 bash
 Copy
 Edit
@@ -59,7 +69,9 @@ Edit
 /pages/api → API route for resume generation
 /styles → Global Tailwind styles
 .env.local → Environment variables
-🧠 How It Works
+
+## 🧠 How It Works
+
 User logs in via Supabase
 
 Pastes their resume and job description
@@ -70,7 +82,8 @@ OpenAI returns a tailored resume and improvement suggestions
 
 User can save, edit, or export the results
 
-📌 TODO / Roadmap
+## 📌 TODO / Roadmap
+
 Export to PDF
 
 Real-time feedback (via Supabase Realtime)
@@ -81,9 +94,11 @@ Subscription/paywall model
 
 LinkedIn import integration
 
-💡 Inspiration
+## 💡 Inspiration
+
 Combines 🔥 keywords: AI + SaaS + career productivity.
 Perfect for job-seekers, recruiters, and anyone tired of editing resumes manually.
 
-📜 License
+## 📜 License
+
 MIT — free to use, modify, and deploy.
