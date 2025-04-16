@@ -101,4 +101,4 @@ Perfect for job-seekers, recruiters, and anyone tired of editing resumes manuall
 
 ## 📜 License
 
-MIT — free to use, modify, and deploy. Please give credit where due. This project is licensed under the MIT License - see the LICENSE.md file for details.
+MIT — free to use, modify, and deploy. Please give credit where due. This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE.md) file for details.
